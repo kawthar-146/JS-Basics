@@ -3,7 +3,6 @@
     <head>
         <title>Step 4</title>
         <meta charset="UTF-8">
-        <script src="Step_4.js"></script>
     </head>
     <body>
         <form>
@@ -12,6 +11,17 @@
             <label for="city">city : </label><input type="text" name="city" id="city"/>
             <button  name="validate" onclick="info()" id="validate">Validate</button>
         </form>
+        
+        <script>
+            function info(){
+            var name=document.getElementById("name").value
+            var surname=document.getElementById("surname").value
+            var city=document.getElementById("city").value
+            alert("name: "+ name +"\n" +"surname: "+ surname + "\n" +"city: " +city)
+ 
+             }
+  
+         </script>
 
     </body>
 </html>
